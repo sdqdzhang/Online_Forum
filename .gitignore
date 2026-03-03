@@ -1,0 +1,26 @@
+# Python 字节码（不需要上传）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境（每个人在本地自己创建，不需要上传）
+venv/
+.venv/
+env/
+
+# 环境变量文件（包含数据库密码、密钥，严禁上传！）
+.env
+
+# 编辑器配置（因人而异）
+.vscode/
+.idea/
+
+# 数据库/日志（运行生成的临时数据）
+*.log
+*.sqlite3
+
+# Docker 镜像构建缓存
+.docker/
+
+test.py
+test2.py
