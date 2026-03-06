@@ -2,10 +2,9 @@ from sqlalchemy import String, Integer, Boolean, DateTime,ForeignKey,JSON,delete
 from sqlalchemy.orm import DeclarativeBase,Mapped,mapped_column,sessionmaker,relationship
 from datetime import datetime
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
-from app.core.config import Settings
+from app.core import settings
 import asyncio
 
-settings = Settings()
 class Base(DeclarativeBase):
     pass
 
