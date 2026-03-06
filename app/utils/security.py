@@ -7,3 +7,6 @@ def get_password_hash(password :str) -> str:
 
 def verify_password(plain_password:str, hashed_password:str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
+
+if __name__=="__main__":
+    print(get_password_hash("123456"))

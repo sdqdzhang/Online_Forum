@@ -1,7 +1,8 @@
 from .db import engine,AsyncSessionLocal,get_db
-
+from .config import settings
 __all__= [
     "engine",
     "AsyncSessionLocal",
-    "get_db"
+    "get_db",
+    "settings"
 ]
