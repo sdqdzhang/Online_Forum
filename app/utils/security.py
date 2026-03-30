@@ -1,5 +1,5 @@
 from passlib.context import CryptContext
-from jose import jwt
+from jose import jwt, JWTError
 from app.core.config import settings
 from datetime import datetime, timedelta
 
@@ -18,12 +18,19 @@ def create_access_token(data:dict) -> str:
     encoded_jwt = jwt.encode(to_encode, settings.secret_key, algorithm=settings.algorithm)
     return encoded_jwt
 
+def decode_token(token:str) -> dict:
+    try:
+        data=jwt.decode(token, settings.secret_key, algorithms=[settings.algorithm])
+        return data if data.get("sub") else None
+    except JWTError as e:
+        return None
+
 
 if __name__=="__main__":
     hashed_password = get_password_hash("123456")
     print(get_password_hash("123456"))
     print(verify_password("123456", hashed_password))
-    token=create_access_token(data={"username":"test"})
+    token=create_access_token(data={"sub":"test"})
     print(token)
-    decoded_data = jwt.decode(token, settings.secret_key, algorithms=[settings.algorithm])
+    decoded_data = decode_token(token)
     print("解码后的内容：", decoded_data)

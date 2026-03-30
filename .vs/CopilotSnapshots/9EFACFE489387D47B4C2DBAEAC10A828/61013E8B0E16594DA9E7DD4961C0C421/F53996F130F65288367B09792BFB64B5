@@ -1,0 +1,40 @@
+﻿import asyncio
+from app.core.config import Settings
+from app.core.db import get_db,engine
+from app.models import User, Role, Base
+from sqlalchemy import select
+
+settings = Settings()
+
+async def create_tables():
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+    print("Tables created successfully")
+
+async def init_base_data():
+    async for db in get_db():
+        try:
+            roles = [
+                Role(id=1, name="admin", description="管理员", permissions=["all"]),
+                Role(id=2, name="moderator", description="版主",
+                     permissions=["login", "post", "comment", "delete_post"]),
+                Role(id=3, name="user", description="普通用户", permissions=["login", "post", "comment"]),
+                Role(id=4, name="muted", description="被禁言", permissions=["login"]),
+                Role(id=5, name="banned", description="被封禁", permissions=[])
+            ]
+            for role in roles:
+                result = await db.execute(select(Role).where(Role.id == role.id))
+                if not result.scalars().first():
+                    db.add(role)
+            await db.commit()
+        except Exception as e:
+            await db.rollback()
+            print("数据初始化失败:", e)
+
+
+async def init_database():
+    await create_tables()
+    await init_base_data()
+
+if __name__ == '__main__':
+    asyncio.run(init_database())

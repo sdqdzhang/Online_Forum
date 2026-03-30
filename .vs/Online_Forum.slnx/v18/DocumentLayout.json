@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\try\\Fastapi\\Online_Forum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\AppData\\Local\\Temp\\VisualStudio\\copilot-vs\\plan-e4cffa9e-3889-477d-b4c2-dbaeac10a828.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\config.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\config.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\cache.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\cache.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\celery_app.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\celery_app.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\models\\posts.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\models\\posts.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\models\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\models\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\post.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\schemas\\post.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\schemas\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\crud\\post_crud.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\crud\\post_crud.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\crud\\user_crud.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\crud\\user_crud.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\crud\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\crud\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\services\\cache_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\services\\cache_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\services\\hot_rank_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\services\\hot_rank_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\services\\social_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\services\\social_service.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\tasks\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\social_tasks.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\tasks\\social_tasks.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\api\\dep.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\dep.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\auth.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\v1\\auth.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\social.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\v1\\social.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\init_db.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\init_db.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\main.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\main.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\services\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\services\\__init__.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\app\\core\\exception_handlers.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\core\\exception_handlers.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\try\\Fastapi\\Online_Forum\\prestart.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prestart.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAACMAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-30T04:32:02.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\__init__.py",
+              "RelativeDocumentMoniker": "app\\core\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\__init__.py",
+              "RelativeToolTip": "app\\core\\__init__.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:31:59.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "celery_app.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\celery_app.py",
+              "RelativeDocumentMoniker": "app\\core\\celery_app.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\celery_app.py",
+              "RelativeToolTip": "app\\core\\celery_app.py",
+              "ViewState": "AgIAABMAAAAAAAAAAABAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:31:56.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cache.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\cache.py",
+              "RelativeDocumentMoniker": "app\\core\\cache.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\cache.py",
+              "RelativeToolTip": "app\\core\\cache.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:31:53.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "config.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\config.py",
+              "RelativeDocumentMoniker": "app\\core\\config.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\config.py",
+              "RelativeToolTip": "app\\core\\config.py",
+              "ViewState": "AgIAABcAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:31:48.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plan-e4cffa9e-3889-477d-b4c2-dbaeac10a828.md [\u9884\u89C8]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\VisualStudio\\copilot-vs\\plan-e4cffa9e-3889-477d-b4c2-dbaeac10a828.md",
+              "ToolTip": "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\VisualStudio\\copilot-vs\\plan-e4cffa9e-3889-477d-b4c2-dbaeac10a828.md [\u9884\u89C8]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-30T04:31:20.847Z",
+              "EditorCaption": " [\u9884\u89C8]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "prestart.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\prestart.py",
+              "RelativeDocumentMoniker": "prestart.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\prestart.py",
+              "RelativeToolTip": "prestart.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:44:27.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "exception_handlers.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\exception_handlers.py",
+              "RelativeDocumentMoniker": "app\\core\\exception_handlers.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\exception_handlers.py",
+              "RelativeToolTip": "app\\core\\exception_handlers.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:43:59.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\web\\index.html",
+              "RelativeDocumentMoniker": "app\\web\\index.html",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\web\\index.html",
+              "RelativeToolTip": "app\\web\\index.html",
+              "ViewState": "AgIAAOUAAAAAAAAAAABAwOkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-30T04:37:03.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\__init__.py",
+              "RelativeDocumentMoniker": "app\\services\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\__init__.py",
+              "RelativeToolTip": "app\\services\\__init__.py",
+              "ViewState": "AgIAAAsAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "main.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\main.py",
+              "RelativeDocumentMoniker": "app\\main.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\main.py",
+              "RelativeToolTip": "app\\main.py",
+              "ViewState": "AgIAAAcAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:23.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "init_db.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\init_db.py",
+              "RelativeDocumentMoniker": "app\\core\\init_db.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\core\\init_db.py",
+              "RelativeToolTip": "app\\core\\init_db.py",
+              "ViewState": "AgIAACUAAAAAAAAAAABQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:17.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "social.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\social.py",
+              "RelativeDocumentMoniker": "app\\api\\v1\\social.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\social.py",
+              "RelativeToolTip": "app\\api\\v1\\social.py",
+              "ViewState": "AgIAABkAAAAAAAAAAABAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:13.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "auth.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\auth.py",
+              "RelativeDocumentMoniker": "app\\api\\v1\\auth.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\v1\\auth.py",
+              "RelativeToolTip": "app\\api\\v1\\auth.py",
+              "ViewState": "AgIAAAcAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:07.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dep.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\dep.py",
+              "RelativeDocumentMoniker": "app\\api\\dep.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\api\\dep.py",
+              "RelativeToolTip": "app\\api\\dep.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:34:03.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "social_tasks.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\social_tasks.py",
+              "RelativeDocumentMoniker": "app\\tasks\\social_tasks.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\social_tasks.py",
+              "RelativeToolTip": "app\\tasks\\social_tasks.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:58.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\__init__.py",
+              "RelativeDocumentMoniker": "app\\tasks\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\tasks\\__init__.py",
+              "RelativeToolTip": "app\\tasks\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:55.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "social_service.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\social_service.py",
+              "RelativeDocumentMoniker": "app\\services\\social_service.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\social_service.py",
+              "RelativeToolTip": "app\\services\\social_service.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:51.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "hot_rank_service.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\hot_rank_service.py",
+              "RelativeDocumentMoniker": "app\\services\\hot_rank_service.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\hot_rank_service.py",
+              "RelativeToolTip": "app\\services\\hot_rank_service.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:31.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cache_service.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\cache_service.py",
+              "RelativeDocumentMoniker": "app\\services\\cache_service.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\services\\cache_service.py",
+              "RelativeToolTip": "app\\services\\cache_service.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:23.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\__init__.py",
+              "RelativeDocumentMoniker": "app\\crud\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\__init__.py",
+              "RelativeToolTip": "app\\crud\\__init__.py",
+              "ViewState": "AgIAAAsAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:17.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "user_crud.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\user_crud.py",
+              "RelativeDocumentMoniker": "app\\crud\\user_crud.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\user_crud.py",
+              "RelativeToolTip": "app\\crud\\user_crud.py",
+              "ViewState": "AgIAAAEAAAAAAAAAAABAwAIAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:14.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "post_crud.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\post_crud.py",
+              "RelativeDocumentMoniker": "app\\crud\\post_crud.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\crud\\post_crud.py",
+              "RelativeToolTip": "app\\crud\\post_crud.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:11.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\__init__.py",
+              "RelativeDocumentMoniker": "app\\schemas\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\__init__.py",
+              "RelativeToolTip": "app\\schemas\\__init__.py",
+              "ViewState": "AgIAAAEAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:06.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "post.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\post.py",
+              "RelativeDocumentMoniker": "app\\schemas\\post.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\schemas\\post.py",
+              "RelativeToolTip": "app\\schemas\\post.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:33:02.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "__init__.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\models\\__init__.py",
+              "RelativeDocumentMoniker": "app\\models\\__init__.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\models\\__init__.py",
+              "RelativeToolTip": "app\\models\\__init__.py",
+              "ViewState": "AgIAAAEAAAAAAAAAAABAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:32:56.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "posts.py",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\app\\models\\posts.py",
+              "RelativeDocumentMoniker": "app\\models\\posts.py",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\app\\models\\posts.py",
+              "RelativeToolTip": "app\\models\\posts.py",
+              "ViewState": "AgIAAA4AAAAAAAAAAABAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARXSURBVFhHxZdfiFR1FMc/v3vnzzqrbbvmuqWJCsk2BjW5ML0kK4TkQyEE6dMyCBeqhyR72S2I6KGIejEfhx56kLKMooxArZTMXCIXpBalpJqUTSfN3dm9d6fZ3\u002B/0cOfOztz50xW1vnC4vznn/s75/s45v3MZ\u002BD8hImHVfw4VVgRwHOdG2F0EhvP5/M9hQxgdCezduzes/lfs3r2bdDo9OTk52ROFhBVW3AyMjIykM5nMZeCY4zhrwvZ63BICALlcLlMl8aXjOKvD9gCxsKIVxsfHw6oGDA0NYdt2WE0ul8sAExMTE8ccxxnO5/MXwu9EysDQ0FBHaRU8QC6Xy6TT6RngWNjGrWrCdsjn803xmhQB6glcTwk8zwubARgdHW1JoC0cxxHXdcV1XSmVSh0leM91XfE8ryb1\u002BnZzJVIP2LbdUWKxGIlEkiuecO6Sx\u002BnCDGf/mKM4p0kkEh17pG1KopZgcHCQ05eE/Sd/4a9ZD6M1Rmu0XsBozfLuBGNPbOL898fZsWNHU7wmRYB6AlrrsLmGxJIUT\u002B47wa7N67k87fL\u002ByfNNJFJxi/3PPcKKvt6meDdcgmm3QqWygK3AUmCMwRhdFX89485TkRgisjTsOxKB8fHxtmKMYIzmrc9/4N2vf6qdflEMRmuqHdg0\u002BJpSEqBdCSzLwo7F\u002BXFqlqulMkYMc/MVRAxiBBHDqXNTnDp7EV0jscChl7ayMjXlh0ys/R37jj1KqYORCARQSlEWmxc\u002BOMNvxVLNeX2g1mvNkZfvp08fqDqKQ98eTWzFpusqQbFY5MPvLlCoBa9KqObNa42imkXRsFCC0mEbeCoSgWDmr1q1iolfrzQ4NsavcWvxbalknGWJa2AqoMtgyuCdAdgciUDQ8ZZlUfhztua4pdSdXIymp7uLN3c9SMz9yg9syj6JcgGkMhipB4JBNDw8zLbXj2C0rtbXv\u002BcP3dPPs1u7WL6kFPICSesazJ4AXfIzYCog1efad6Jdw6AEIkJ3wmo48YaB23ht\u002ByXuUu\u002BRnP\u002BsTg6RdD\u002BCmcOwML2Y\u002BiADugLWkmgEghKICOv7lzbUf1tmJco71bhBdDVIXdBa4Oo6uQ5U7FwkAsEtKBQKDN97Z0MGelIGgjEDjY0WDlqvW7YF4JNIBLLZLNlsloGBAR59YDXbMmuwlT8BCf5biOkcOPit/4buLPQ\u002BPgfsi9SE9bAsi3g8jmVVueurUHxlscFMBeJroOs\u002Bn5Ro/9m7Hezap2ASeEYpdTxSBuphjKFcLuN5HvPz876ydrrqab1JuLIfrh6Ea59C8W0wJYC1QJdSaqNS6jhRP0btICL\u002BWA3XNyDS/zTc/QaYCiIWwJRSqlzvo2MJwrpWGBsbY133xzD77eL9rpViNcR6QVl4/a8eSKVSO8P72xKIChHZCOYoM0cHmP4CvLP\u002BvVdx6NoAPVuoLH3MjSeSDyulTof33xSIyO0i8ryIfCMiJfFREpGTIvKiiCwP7wnwD7tNXzLGHmUXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-30T04:32:53.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\try\\Fastapi\\Online_Forum\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "E:\\try\\Fastapi\\Online_Forum\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-03-30T04:32:05.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
