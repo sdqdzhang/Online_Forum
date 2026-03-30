@@ -1,0 +1,30 @@
+﻿import uvicorn
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
+from pathlib import Path
+from app.api.v1.auth import router as auth_router
+from contextlib import asynccontextmanager
+from app.core import settings, close_redis
+from app.api.dep import router as dep_router
+from app.api.v1.social import router as social_router
+
+
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    yield
+    await close_redis()
+
+
+app = FastAPI(title=settings.project_name,debug=settings.debug, lifespan=lifespan)
+app.include_router(auth_router, prefix='/api/v1/auth',tags=['认证'])
+app.include_router(dep_router,prefix='/api/v1',tags=['用户'])
+app.include_router(social_router,prefix='/api/v1/social',tags=['社交'])
+WEB_INDEX = Path(__file__).resolve().parent / "web" / "index.html"
+
+
+@app.get("/")
+async def root():
+    return FileResponse(WEB_INDEX)
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8000)

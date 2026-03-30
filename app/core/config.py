@@ -15,6 +15,13 @@ class Settings(BaseSettings):
     algorithm: str
     project_name:str
     debug: bool
+    redis_url: str = "redis://localhost:6379/0"
+    celery_broker_url: str = "redis://localhost:6379/1"
+    celery_result_backend: str = "redis://localhost:6379/2"
+    cache_ttl_seconds: int = 300
+    cache_logical_expire_seconds: int = 180
+    cache_lock_seconds: int = 10
+    hot_rank_key: str = "hot:posts"
     # 常驻连接数
     DB_POOL_SIZE : int = 10
     # 峰值临时连接数

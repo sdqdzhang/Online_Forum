@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>实时社交资讯系统 Demo</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, sans-serif; background: #f4f6fa; color: #1f2a44; }
+        header { background: #1f2a44; color: #fff; padding: 16px 24px; }
+        main { max-width: 1100px; margin: 20px auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 0 12px; }
+        .card { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+        .card h2 { margin-top: 0; font-size: 18px; }
+        .row { display: flex; gap: 8px; margin-bottom: 8px; }
+        .row input, .row textarea { width: 100%; padding: 8px; border: 1px solid #ccd2e0; border-radius: 6px; }
+        .row textarea { min-height: 80px; resize: vertical; }
+        button { background: #2b6cff; color: #fff; border: none; border-radius: 6px; padding: 8px 12px; cursor: pointer; }
+        button.secondary { background: #5f6b85; }
+        .muted { color: #6b7489; font-size: 12px; }
+        #tokenBox { width: 100%; min-height: 62px; }
+        .full { grid-column: 1 / -1; }
+        pre { margin: 0; white-space: pre-wrap; word-break: break-word; background: #0f172a; color: #d8e2ff; padding: 12px; border-radius: 6px; max-height: 260px; overflow: auto; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="margin:0;font-size:22px;">实时社交资讯系统 - 前端演示</h1>
+</header>
+
+<main>
+    <section class="card">
+        <h2>1. 用户注册</h2>
+        <div class="row"><input id="regUsername" placeholder="用户名" /></div>
+        <div class="row"><input id="regEmail" placeholder="邮箱" /></div>
+        <div class="row"><input id="regPassword" type="password" placeholder="密码(6-32位)" /></div>
+        <button id="btnRegister">注册</button>
+    </section>
+
+    <section class="card">
+        <h2>2. 用户登录</h2>
+        <div class="row"><input id="loginUsername" placeholder="用户名或邮箱" /></div>
+        <div class="row"><input id="loginPassword" type="password" placeholder="密码" /></div>
+        <button id="btnLogin">登录</button>
+        <p class="muted">登录后自动保存 Bearer Token</p>
+    </section>
+
+    <section class="card full">
+        <h2>3. 访问令牌</h2>
+        <div class="row"><textarea id="tokenBox" placeholder="登录后会自动填充，也可手动粘贴"></textarea></div>
+        <div class="row">
+            <button id="btnSaveToken" class="secondary">保存 Token</button>
+            <button id="btnMe">查询当前用户 /me</button>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>4. 发帖</h2>
+        <div class="row"><input id="postTitle" placeholder="帖子标题" /></div>
+        <div class="row"><textarea id="postContent" placeholder="帖子内容"></textarea></div>
+        <button id="btnCreatePost">发布帖子</button>
+    </section>
+
+    <section class="card">
+        <h2>5. 查帖 / 点赞</h2>
+        <div class="row"><input id="postId" placeholder="帖子ID" /></div>
+        <div class="row">
+            <button id="btnGetPost" class="secondary">查询详情</button>
+            <button id="btnLikePost">点赞</button>
+        </div>
+    </section>
+
+    <section class="card full">
+        <h2>6. 热榜</h2>
+        <div class="row"><input id="hotLimit" type="number" min="1" max="100" value="20" placeholder="数量" /></div>
+        <button id="btnHot">查询热榜</button>
+    </section>
+
+    <section class="card full">
+        <h2>7. 接口响应</h2>
+        <pre id="result">等待操作...</pre>
+    </section>
+</main>
+
+<script>
+const API = {
+    register: "/api/v1/auth/register",
+    login: "/api/v1/auth/login",
+    me: "/api/v1/me",
+    createPost: "/api/v1/social/posts",
+    getPost: (postId) => `/api/v1/social/posts/${postId}`,
+    likePost: (postId) => `/api/v1/social/posts/${postId}/like`,
+    hot: (limit) => `/api/v1/social/posts/hot?limit=${limit}`,
+};
+
+const resultEl = document.getElementById("result");
+const tokenBox = document.getElementById("tokenBox");
+
+function getToken() {
+    return tokenBox.value.trim() || localStorage.getItem("demo_token") || "";
+}
+
+function setToken(token) {
+    tokenBox.value = token;
+    localStorage.setItem("demo_token", token);
+}
+
+function showResult(title, data) {
+    const text = typeof data === "string" ? data : JSON.stringify(data, null, 2);
+    resultEl.textContent = `[${new Date().toLocaleString()}] ${title}\n${text}`;
+}
+
+async function request(url, options = {}) {
+    const headers = options.headers || {};
+    const token = getToken();
+    if (token) {
+        headers["Authorization"] = `Bearer ${token}`;
+    }
+    options.headers = headers;
+
+    const res = await fetch(url, options);
+    const ct = res.headers.get("content-type") || "";
+    const payload = ct.includes("application/json") ? await res.json() : await res.text();
+    if (!res.ok) {
+        throw { status: res.status, payload };
+    }
+    return payload;
+}
+
+document.getElementById("btnSaveToken").addEventListener("click", () => {
+    setToken(tokenBox.value.trim());
+    showResult("Token 保存成功", { token: getToken() });
+});
+
+document.getElementById("btnRegister").addEventListener("click", async () => {
+    try {
+        const username = document.getElementById("regUsername").value.trim();
+        const email = document.getElementById("regEmail").value.trim();
+        const password = document.getElementById("regPassword").value;
+        const data = await request(API.register, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username, email, password }),
+        });
+        showResult("注册成功", data);
+    } catch (e) {
+        showResult("注册失败", e);
+    }
+});
+
+document.getElementById("btnLogin").addEventListener("click", async () => {
+    try {
+        const username = document.getElementById("loginUsername").value.trim();
+        const password = document.getElementById("loginPassword").value;
+        const form = new URLSearchParams();
+        form.append("username", username);
+        form.append("password", password);
+
+        const data = await request(API.login, {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: form.toString(),
+        });
+        if (data.access_token) {
+            setToken(data.access_token);
+        }
+        showResult("登录成功", data);
+    } catch (e) {
+        showResult("登录失败", e);
+    }
+});
+
+document.getElementById("btnMe").addEventListener("click", async () => {
+    try {
+        const data = await request(API.me);
+        showResult("当前用户", data);
+    } catch (e) {
+        showResult("查询用户失败", e);
+    }
+});
+
+document.getElementById("btnCreatePost").addEventListener("click", async () => {
+    try {
+        const title = document.getElementById("postTitle").value.trim();
+        const content = document.getElementById("postContent").value.trim();
+        const data = await request(API.createPost, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ title, content }),
+        });
+        document.getElementById("postId").value = data.id;
+        showResult("发帖成功", data);
+    } catch (e) {
+        showResult("发帖失败", e);
+    }
+});
+
+document.getElementById("btnGetPost").addEventListener("click", async () => {
+    try {
+        const postId = document.getElementById("postId").value.trim();
+        const data = await request(API.getPost(postId));
+        showResult("帖子详情", data);
+    } catch (e) {
+        showResult("查询帖子失败", e);
+    }
+});
+
+document.getElementById("btnLikePost").addEventListener("click", async () => {
+    try {
+        const postId = document.getElementById("postId").value.trim();
+        const data = await request(API.likePost(postId), { method: "POST" });
+        showResult("点赞结果", data);
+    } catch (e) {
+        showResult("点赞失败", e);
+    }
+});
+
+document.getElementById("btnHot").addEventListener("click", async () => {
+    try {
+        const limit = document.getElementById("hotLimit").value || "20";
+        const data = await request(API.hot(limit));
+        showResult("热榜结果", data);
+    } catch (e) {
+        showResult("查询热榜失败", e);
+    }
+});
+
+const cached = localStorage.getItem("demo_token");
+if (cached) {
+    tokenBox.value = cached;
+}
+</script>
+</body>
+</html>

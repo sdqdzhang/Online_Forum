@@ -13,6 +13,9 @@ async def create_user_service(db: AsyncSession, user_data: UserCreate):
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="该用户名已被注册"
         )
+    email_user = await get_user_by_email(db, user_data.email)
+    if email_user:
+        raise HTTPException(status_code=400, detail="该邮箱已被注册")
     hashed_password = get_password_hash(user_data.password)
     new_user=await create_user(db, user_data, hashed_password)
     return new_user

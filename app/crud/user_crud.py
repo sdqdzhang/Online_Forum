@@ -1,5 +1,5 @@
-from models import User
-from schemas import UserCreate
+from app.models import User
+from app.schemas import UserCreate
 from sqlalchemy.ext.asyncio import AsyncSession
 from datetime import datetime
 from sqlalchemy import select

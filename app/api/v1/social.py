@@ -1,0 +1,35 @@
+from fastapi import APIRouter, Depends, Query
+from sqlalchemy.ext.asyncio import AsyncSession
+from app.api.dep import get_user_by_token
+from app.core import get_db
+from app.models import User
+from app.schemas import PostCreate, PostRead, HotPostRead, LikeActionResponse
+from app.services.social_service import (
+    create_post_service,
+    get_post_detail_service,
+    like_post_service,
+    get_hot_posts_service,
+)
+
+router = APIRouter()
+
+
+@router.post("/posts", response_model=PostRead)
+async def create_post(post_in: PostCreate, db: AsyncSession = Depends(get_db), current_user: User = Depends(get_user_by_token)):
+    return await create_post_service(db=db, author_id=current_user.id, post_in=post_in)
+
+
+@router.get("/posts/hot", response_model=list[HotPostRead])
+async def hot_posts(limit: int = Query(default=20, ge=1, le=100)):
+    return await get_hot_posts_service(limit=limit)
+
+
+@router.get("/posts/{post_id}")
+async def get_post(post_id: int, db: AsyncSession = Depends(get_db)):
+    return await get_post_detail_service(db=db, post_id=post_id)
+
+
+@router.post("/posts/{post_id}/like", response_model=LikeActionResponse)
+async def like_post(post_id: int, db: AsyncSession = Depends(get_db), current_user: User = Depends(get_user_by_token)):
+    liked, like_count = await like_post_service(db=db, post_id=post_id, user_id=current_user.id)
+    return {"post_id": post_id, "liked": liked, "like_count": like_count}
